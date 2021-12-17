@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Blog dos Animais</title>
+    <meta charset="utf-8">
+    <link rel="SHORTCUT ICON" href="img/icon.jpg" type="image/x-icon" />
+
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap Icon-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="js/bootstrap.bundle.js"></script>
+
+  </head>
+  <body background="img/mar.jpg">
+
+  	<!-- Menu - Utilies/Flex + Components/Navbar + Components/Dropdowns  -->
+	<nav class="navbar navbar-expand-lg navbar-light">
+	  <div class="container">
+	    <a class="navbar-brand" href="#">
+	    	<img class="imagem" src="img/marinho.png">
+	    </a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav me-auto">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#">Marinhos</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Mamíferos</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Aves</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Répteis</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Anfíbios</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Insetos</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Aracnídeos</a>
+	        </li>
+	      </ul>
+	      <ul class="navbar-nav">
+	        <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Nome dos Desenvolvedores
+				</a>
+				<ul class="dropdown-menu bg-light">
+					<li><h6 class="dropdown-header">2ADS</h6></li>
+					<li><a class="dropdown-item" href="#">Higor Bernardes da Silva</a></li>
+					<li><a class="dropdown-item" href="#">João Paulo Cordeiro da Silva</a></li>
+					<li><a class="dropdown-item" href="#">Myrelle Sales Santos</a></li>
+				</ul>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Pesquisar <i class="bi bi-search"></i></a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Entrar <i class="bi bi-person-circle"></i></a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- Banner, Slider, Carrossel - Components/Carousel + Layout/Grid -->
+	<div class="container">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  </div>
+		  <div class="carousel-inner align-items-center">
+		    <div class="carousel-item active" style="background-color: #f2f2f2;">
+		    	<div class="row">
+		    		<div class="col-6 p-5">
+		    			<h1>Animais Aquáticos</h1>
+		    			<p><b>Animais aquáticos</b> são animais que vivem na água. O termo "animal aquático" pode ser usado para mamíferos aquáticos ou 
+							animais marinhos, que são animais pertencente a água, como os cetáceos.
+							O mar é tão grande e profundo, que conhecemos apenas uma pequena parte dos seus moradores. Nem todos os animais que vivem na água doce conseguem viver na água salgada, isso acontece porque a água do mar é mais concentrada do que a do rio. Se um peixe de água doce vai para o mar, perde muita água do seu corpo (por osmose).
+							Pode até parecer irônico, mas é a realidade, ele morreria desidratado, dentro da água.
+						</p>
+						<a href="page1.html" target="blank">
+		    			<button class="btn btn-primary">Próximo<i class="bi bi-chevron-right"></i></button>
+						</a>
+		    		</div>
+		    		<div class="col-6">
+		      			<img src="img/animais-marinhos.jpg" class="d-block w-100" alt="..." class="ani">
+		    		</div>
+	    		</div>
+		    </div>
+		    <div class="carousel-item" style="background-color: #e6e6e6;">
+		    	<div class="row">
+		    		<div class="col-6 p-5">
+		    			<h1>Animais Marinhos</h1>
+		    			<p>Algum dos <b>animais marinhos</b> são os: protozoários unicelulares, águas-vivas, moluscos, crustáceos, peixes, esponjas, baleias, águas-vivas, tubarões, cobras marinhas, cavalos-marinhos, estrelas do mar, minhocas, ostras, etc.
+							Um exemplo disso é que o ambiente aquático é repleto de fitoplâncton (microalgas) e zooplâncton (microanimais), que são alimentos potenciais para diversos peixes, que por sua vez alimentam mamíferos aquáticos, cobras e pássaros.</p>
+		    			<button class="btn btn-primary">Próximo <i class="bi bi-chevron-right"></i></button>
+		    		</div>
+		    		<div class="col-6">
+		      			<img src="img/AnimaisM.webp" class="d-block w-100" alt="...">
+		    		</div>
+	    		</div>
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+	</div>
+	<br>
+	<!-- Notícias - Layout/Grid -->
+	<div class="container"> 
+		<div class="row">
+			<div class="col-3">
+				<a name="voltar"></a>
+				<div class="card">
+				  <img src="img/baleia.png" class="card-img-top" alt="baleia">
+				  <div class="card-body">
+				    <h5 class="card-title">Baleia</h5>
+				    <p class="card-text">Baleia ou misticeto é um grupo monofilético que pertence à or-dem Cetacea, a qual compre-ende animais terrestres que, ao longo da evolução, retornaram ao ambiente aquático, tendo esse retorno sido marcado pela mudança gradual da posição das narinas.</p>
+				    <a href="page1.html#baleia" class="btn text-primary">Clique para mais<i class="bi bi-chevron-right"></i></a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card">
+				  <img src="img/foca.png" class="card-img-top" alt="foca">
+				  <div class="card-body">
+				    <h5 class="card-title">Foca</h5>
+				    <p class="card-text">As focas são mamíferos da família dos focídeos, super-família dos pinípedes, adapta-das à vida marinha. O corpo de uma foca é hidrodinâmico, se-melhante a um torpedo, com os membros posteriores e ante-riores em forma de nadadeira.</p>
+				    <br>
+					<a  href="page1.html#foca" class="btn text-primary">Clique para mais<i class="bi bi-chevron-right"></i></a>
+				</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card">
+				  <img src="img/golfinho.png" class="card-img-top" alt="golfinho">
+				  <div class="card-body">
+				    <h5 class="card-title">Golfinho</h5>
+				    <p class="card-text">Os golfinhos é um animal cetáceos pertencentes às famí-lias Delphinidae e Platanistidae. São perfeitamente adaptados para viver no ambiente aquá-tico, sendo que existem 37 es-pécies conhecidas de golfinhos de água salgada e água doce.</p>
+				   <br>
+					<a href="page1.html#golfinho" class="btn text-primary">Clique para mais<i class="bi bi-chevron-right"></i></a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card">
+				  <img src="img/pinguin.png" class="card-img-top" alt="pinguim">
+				  <div class="card-body">
+				    <h5 class="card-title">Pinguim</h5>
+				    <p class="card-text">O pinguim é uma ave da família Spheniscidae, altamente modifi-cadas para a uma vida aquática, sendo suas asas adaptadas para promover impulso através da água.</p>
+				    <br>
+					<br>
+					<br>
+					<a href="page1.html#pinguim" class="btn text-primary">Clique para mais<i class="bi bi-chevron-right"></i></a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+
+<center>
+	<footer>
+		
+		<audio src="music/sons.mp3" controls autoplay loop></audio>
+<br>
+	<h6>Higor Bernardes da Silva - João Paulo Cordeiro da Silva - Myrelle Sales Santos</h6>
+</footer>
+</center>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.imagem{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 72px;
+  width: 44px;
+  }
+
+  .card-img-top{
+    height: 170px;
+    }
+
+    .d-block{
+    padding-top: 12%;
+    padding-bottom: 12%;
+    padding-right: 8%;
+    }
+  .btn-text-primary{
+    height: 500px;
+  }
+
+  p{
+    text-align: justify;
+  }
